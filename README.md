@@ -2,6 +2,9 @@
 
 A pixel-perfect implementation of a page selector component built with React and Tailwind CSS.
 
+View : https://ellty-frontend-six.vercel.app/
+
+
 ## Installation
 
 ```bash
