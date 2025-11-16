@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-yellow: #FFCE22;
+  --primary-yellow-hover: #FFD84D;
+  --primary-blue: #2469F6;
+  --primary-blue-hover: #5087F8;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666666;
+  --divider-color: #CDCDCD;
+  --checkbox-unchecked: #ffffff;
+  --checkbox-border: #CDCDCD;
+  --checkbox-border-hover: #BDBDBD;
+  --checkbox-hover-checkmark: #E3E3E3;
+  --checkbox-active-checkmark: #878787;
+  --checkbox-active-border: #BDBDBD;
+  --checkbox-glow: #EAF0FE;
+  --button-hover-border: #8B5CF6;
+  --card-bg: #ffffff;
+  --card-border: #EEEEEE;
+  --shadow-card: 0 2px 4px rgba(20, 20, 20, 0.1), 0 0 15px rgba(20, 20, 20, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

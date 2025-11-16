@@ -1,0 +1,35 @@
+.btn-primary {
+  width: 340px;
+  height: 40px;
+  background-color: var(--primary-yellow);
+  border: none;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+
+
+.btn-primary:hover {
+  background-color: var(--primary-yellow-hover);
+}
+
+
+
+.btn-primary:active {
+  background-color: var(--primary-yellow);
+}
+
+
+
+
+.btn-primary:focus-visible {
+  outline: 2px solid var(--button-hover-border);
+  outline-offset: 2px;
+}

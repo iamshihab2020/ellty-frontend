@@ -1,0 +1,66 @@
+.page-selector {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 10px 15px;
+  box-shadow: var(--shadow-card);
+}
+
+
+
+.selector-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+
+
+
+.header-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+
+
+.divider {
+  height: 0.7px;
+  background-color: var(--divider-color);
+  margin: 10px 0;
+}
+
+
+
+
+.divider-bottom {
+  margin-bottom: 20px;
+}
+
+
+
+.pages-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.page-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  12px;
+  cursor: pointer;
+}
+
+
+
+
+.page-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-primary);
+}
